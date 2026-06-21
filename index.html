@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rutuja">
+        <meta name="description" content="This web page is showing my portfolio.">
+        <title> Portfolio </title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background: linear-gradient(to bottom, #0A143D, #6464A9);
+                color: #DCE4FC;
+            }
+            header {
+                background-color: rgba(10, 20, 61, 0.95);
+                text-align: center;
+                padding: 20px;
+                position: sticky;
+                top: 0;
+                box-shadow: 0 0 10px #7b82c9;
+            }
+            h1 {
+                margin: 10px;
+                color: #DCE4FC;
+            }
+            nav {
+                margin-top: 15px;
+            }
+            nav a {
+                color:#DCE4FC;
+                text-decoration: none;
+                margin: 0 15px;
+                padding: 8px 15px;
+                border-radius: 20px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+            nav a:hover {
+                background-color: #7b82c9;
+                box-shadow: 0 0 8px #C9B0DE;
+            }
+            section{
+                width: 80%;
+                margin: 30px auto;
+                padding: 25px;
+                background: rgba(201, 176, 222, 0.1);
+                border: 2px solid #7b82c9;
+                border-radius: 20px;
+                box-shadow: 
+                     0 0 5px #7b82c9,
+                     0 0 10px rgba(123, 130, 201, 0.5);
+                transition: 0.3s;
+            }
+            section:hover {
+                transform: translateY(-5px);
+                box-shadow: 
+                    0 0 8px #C9B0DE,
+                    0 0 15px rgba(123, 130, 201, 0.5) ;
+            }
+            h2 {
+                color: #DCE4FC;
+                border-bottom: 2px solid #7b82c9;
+                padding-bottom: 10px ;
+            }
+            img {
+                display: block;
+                margin: auto;
+                width:170px;
+                height: 170px;
+                border-radius: 5%;
+                border: 4px solid #DCE4FC;
+                box-shadow: 0 0 8px #C9B0DE;
+            }
+            p,li {
+                font-size: 18px;
+            }
+            ul{
+                padding-left: 20px;
+            }
+            li {
+                margin: 10px 0;
+            }
+            footer{
+                text-align: center;
+                padding: 20px;
+                background-color: #0A143D;
+                box-shadow: 0 0 0px #7b82c9;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome To My Portfolio</h1>
+            <nav>
+                <a href="#about">About</a>
+             <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="about">
+        <h2>About Me</h2>
+        <img src="photo.jpeg" alt="Profile Photo">
+        <p> <b> Name : </b> Rutuja Ranjit Babar Patil </p>
+        <p>Hello! My name is Rutuja. I am a final-year B.E. Information Technology student at Rajiv Gandhi Institute of Technology,
+             Mumbai. I have a strong interest in software development, web technologies, artificial intelligence, and networking.
+              I enjoy learning new technologies and improving my technical skills through hands-on practice. I am a quick learner, 
+              a good team player, and always looking forward to gaining practical industry experience through internship opportunity.
+        </p>
+    </section>
+
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>
+            <b>B.E. Information Technology </b>
+            <br> At Rajiv Gandhi Institute of Technology, Andheri West, Mumbai     
+             <br>   - Onging Sem 7 
+        </p>
+
+        <p>
+            <b>HSC- Science(PCM)  </b>
+            <br> At St. Rocks College, Borivali West, Mumbai  
+            <br> - 2023 passout
+        </p>
+        
+          <p>
+            <b>SSC   </b>
+            <br> At St. Xavier's High School, Borivali East, Mumbai  
+            <br> - 2021 passout
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Flask</li>
+            <li>MySQL & MongoDB</li>
+            <li>ML(Machine Learning)</li>
+            <li>AI(Artificial Intelligence)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: rutujababarpatilcg@gmail.com</p>
+        <p>Phone No.: 9004003462 </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Rutuja's Portfolio</p>
+    </footer>
+    </body>
+</html>
